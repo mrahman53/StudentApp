@@ -4,6 +4,7 @@ public class Profile {
 	
 	String studentName;
 	int studentId;
+	String dob;
 	
 	public String getStudentName() {
 		return studentName;
@@ -17,6 +18,7 @@ public class Profile {
 	public void setStudentId(int studentId) {
 		this.studentId = studentId;
 	}
+	
 	
 	
 	
