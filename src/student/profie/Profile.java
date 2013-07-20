@@ -12,6 +12,12 @@ public class Profile {
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
 	}
+	public String getDob() {
+		return dob;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
 	public int getStudentId() {
 		return studentId;
 	}
