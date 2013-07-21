@@ -3,7 +3,7 @@ package student.profie;
 public class Profile {
 	
 	String studentName;
-	int studentId;
+	String studentId;
 	String dob;
 	
 	public String getStudentName() {
@@ -18,15 +18,17 @@ public class Profile {
 	public void setDob(String dob) {
 		this.dob = dob;
 	}
-	public int getStudentId() {
+	public String getStudentId() {
 		return studentId;
 	}
-	public void setStudentId(int studentId) {
+	public void setStudentId( String studentId) {
 		this.studentId = studentId;
 	}
-	
-	
-	
-	
-
+	public void printStudentInfo(){
+	      System.out.println("Student Name  : " + studentName );
+	      System.out.println("Student Id    : " + studentId );
+	      System.out.println("Student DOB   : " + dob );
+	      System.out.println();
+	      
+	}
 }
